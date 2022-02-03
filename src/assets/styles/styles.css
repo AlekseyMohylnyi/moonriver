@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Forum-Regular';
+    src: url('../fonts/Forum-Regular.woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT-Book';
+    src: url('../fonts/FuturaPT-Book.woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT-Light';
+    src: url('../fonts/FuturaPT-Light.woff');
+}
+
+@font-face {
+    font-family: 'FuturaPT-LightObl';
+    src: url('../fonts/FuturaPT-LightObl.woff');
+}
+
+@font-face {
+    font-family: 'SegoeUI-Light';
+    src: url('../fonts/SegoeUI-Light.woff');
+}
+
+:root {
+    --font-size: 16px;
+    --black: #272727;
+    --white: #fff;
+    --gold: #E2B67A;
+    --grey: #EDEDED;
+}
+
+a {
+    cursor: pointer;
+}
+
+#app {
+/*    background-color: #c9c9c9;*/
+    width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'FuturaPT-Book';
+    font-weight: 400;
+    font-size: var(--font-size);
+    color: var(--black);
+}
+
+.container {
+    width: 1116px;
+    margin: 0 auto;
+/*    background-color: tomato;*/
+}
