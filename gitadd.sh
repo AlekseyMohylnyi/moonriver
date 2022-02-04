@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-set -e
+# set -e
 
 git init
 git add -A
@@ -11,4 +11,4 @@ git remote add origin https://github.com/AlekseyMohylnyi/moonriver.git
 git branch -M main
 git push -u origin main
 
-cd -
+# cd -
