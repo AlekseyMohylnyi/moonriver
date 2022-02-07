@@ -36,9 +36,9 @@ a {
 }
 
 #app {
-/*    background-color: #c9c9c9;*/
     width: 1440px;
     margin: 0 auto;
+    background-color: aquamarine;
 }
 
 body {
@@ -51,5 +51,4 @@ body {
 .container {
     width: 1116px;
     margin: 0 auto;
-/*    background-color: tomato;*/
 }
